@@ -85,7 +85,7 @@ A Dockerfile is a script of instructions to build a Docker image. Each command i
 
 1. Choose a base image (e.g., `python:3.9`)
 2. Set a working directory using `WORKDIR`
-3. Copy files using `COPY . .`
+3. Copy files from the current working directory into the container using `COPY . .`
 4. Install dependencies using `RUN`
 5. Expose a port using `EXPOSE`
 6. Define the default command using `CMD`
